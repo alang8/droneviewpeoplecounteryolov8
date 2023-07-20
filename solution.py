@@ -50,9 +50,9 @@ while True:
             f"ID:{obj_id}",
             (box[0], box[1]),
             cv2.FONT_HERSHEY_SIMPLEX,
-            0.75,
+            0.6,
             (0, 0, 255),
-            1,
+            2,
         )
 
         object_entry_time = object_times[obj_id]['entry_time']
@@ -65,7 +65,7 @@ while True:
         #     f"Time: {time_counter:.2f}s",
         #     (box[0], box[1] - 20),
         #     cv2.FONT_HERSHEY_SIMPLEX,
-        #     1,
+        #     0.6,
         #     (0, 0, 255),
         #     2,
         # )
